@@ -1,0 +1,22 @@
+{
+  "songs": [
+    {
+      "title": "I Go To Work",
+      "artist": "Kool Moe Dee",
+      "album": "Knowledge Is King",
+      "genre": "Hip-Hop"
+    },
+    {
+      "title": "I Got The Power",
+      "artist": "Snap",
+      "album": "World Power",
+      "genre": "Hip-Hop"
+    },
+    {
+      "title": "Microphone Fiend",
+      "artist": "Eric B. & Rakim",
+      "album": "Follow The Leader",
+      "genre": "Hip-Hop"
+    }
+  ]
+}
