@@ -1,0 +1,70 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Music History</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+
+<!-- Nav Bar -->
+	<div id="nav">
+		<ul class="topNav">
+			<li><a href="index.html">View Music</a></li>
+			<li><a href="music.html">Add Music</a></li>
+			<li><a href="profile.html">Profile</a></li>
+		</ul>
+	</div>
+
+
+	<!-- Container -->
+
+
+	<div id="container">
+
+
+	<!-- Option Form -->
+
+		<div id="optionForm">
+			<form>
+				<legend>Song Length:</legend>
+				<input type="range" class="range" name="points" id="points" value="50" min="0" max="100">
+				<legend class="artist">Artist:</legend>
+				<select>
+					<option value="option">Option</option>
+				</select>
+				<legend class="album">Album:</legend>
+				<select>
+					<option value="option">Option</option>
+				</select>
+				<div class="genre">
+					<legend>Genre:</legend>
+					<div class="radioContainer">
+						<div class="row1">
+							<input type="radio" class="radio" name="genre" value="rock">Rock<br>
+							<input type="radio" class="radio" name="genre" value="pop">Pop<br>
+							<input type="radio" class="radio" name="genre" value="blues" >Blues<br>
+						</div>
+						<div class="row2">
+							<input type="radio" class="radio" name="genre" value="classical">Classical<br>
+							<input type="radio" class="radio" name="genre" value="jazz">Jazz<br>
+							<input type="radio" class="radio" name="genre" value="hip hop" checked>Hip Hop<br>
+						</div>
+					</div>
+				</div>
+				<button type="button" class="filter">Filter</button>
+			</form>
+		</div>
+
+	<!-- Song List -->
+
+		<div id="songList">
+
+
+	</div><!-- /Container -->
+
+	<script src="main.js"></script>
+</body>
+</html>
